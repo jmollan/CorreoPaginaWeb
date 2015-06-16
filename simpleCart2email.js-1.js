@@ -425,7 +425,7 @@ me.emailCheckout = function() {
             var form = document.createElement("form"); 
                form.style.display = "none"; 
                form.method = "POST"; 
-               form.action = "http://www.jmollan.byethost13.com/email.php"; 
+               form.action = "http://mercadosperu.pe/Php%20Correos/ElSOL/pedido.php"; 
                form.acceptCharset = "utf-8"; 
                form.appendChild(this.createHiddenElement("jcitems", itemsString)); 
                form.appendChild(this.createHiddenElement("jcremite", remite)); 
